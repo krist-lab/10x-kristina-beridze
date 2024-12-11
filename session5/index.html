@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            background-color: #611ECB;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+
+        }
+
+        table {
+            background-color: #FFFFFF;
+            width: 1000px;
+            height: fixed;
+            /* border: 1px solid #F5F5F5; */
+            margin: 100px;
+            padding: left 20px;
+            left: 20px;
+            gap: 20px;
+            border-collapse: collapse;
+        }
+
+        tr:hover {
+            background-color: #EEE3FF;
+        }
+
+        /* tr {
+            height: 60px;
+        } */
+        th {
+
+            border: solid 1px #EEE3FF;
+            color:#0F1419; 
+            font-size: 13px;
+            text-align: start;
+            border-left: none;
+            border-right: none;
+        }
+
+        td {
+            color: #333333;
+            border: solid 1px #EEE3FF;
+            border-left: none;
+            border-right: none;
+            padding: 20px 15px;
+            font-size: 13px;
+        }
+
+        .table-header {
+            background-color: #F5F5F5;
+        }
+
+        .table-header:hover {
+            background-color: #F5F5F5;
+        }
+
+        .stars {
+            color: #EEE3FF;
+            font-size: 20px;
+        }
+
+        .active-star {
+            color: #6926D7
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>User Table</caption>
+        <thead>
+            <tr class="table-header">
+                <td><input type="checkbox"></td>
+                <th> Name</th>
+                <th>input type role</th>
+                <th>input type Company</th>
+                <th>input type Location</th>
+                <th>input type rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Buzz</td>
+                <td>owner</td>
+                <td>Your Friend Buzz</td>
+                <td>Australia</td>
+                <td class="stars">
+                    <span class="star active-star">&#9733;</span>
+                    <span class="active-star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Dustin</td>
+                <td>Admin</td>
+                <td>Story inc</td>
+                <td>Hong Kong</td>
+                <td class="stars">
+                    <span class="star active-star">&#9733;</span>
+                    <span class="active-star">&#9733;</span>
+                    <span class="active-star">&#9733;</span>
+                    <span class="active-star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Mark</td>
+                <td>user</td>
+                <td>Mixpanel</td>
+                <td>United States Of America</td>
+                <td class="stars">
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Cynthia</td>
+                <td>Visitor</td>
+                <td>Shopify</td>
+                <td>Canada</td>
+                <td class="stars">
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Cynthia</td>
+                <td>visitor</td>
+                <td>Shopify</td>
+                <td>Canada</td>
+                <td class="stars">
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Cynthia</td>
+                <td>Visitor</td>
+                <td>Shopify</td>
+                <td>Canada</td>
+                <td class="stars">
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Cyntia</td>
+                <td>Visitor</td>
+                <td>Shopify</td>
+                <td>Canada</td>
+                <td class="stars">
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                    <span class="star active-star">&#9733;</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
